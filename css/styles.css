@@ -1,0 +1,256 @@
+/* Основной цвет текста #212121; */
+/* Вторичный цвет текста #757575; */
+/* Белый #FFFFFF; */
+/* Цвет акцента #2196F3; */
+/* Вторичный цвет фона #2f303a; */
+/* Вторичный цвет фона страницы Портфолио #f5f4fa; */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --portfolio-secondary-bg-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Стили страницы Студия */
+
+/* Шапка страницы */
+
+/* Логотип */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #000000;
+}
+
+.logo-custom {
+  color: var(--accent-color);
+}
+
+/* Навигация сайта */
+.site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.studio-page:hover,
+.studio-page:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .studio-page.current {
+  color: var(--accent-color);
+}
+
+.portfolio-page:hover,
+.portfolio-page:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .portfolio-page.current {
+  color: var(--accent-color);
+}
+
+.contacts-page:hover,
+.contacts-page:focus {
+  color: var(--accent-color);
+}
+
+/* Контакты шапки */
+.header-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
+/* Секция-герой */
+.hero-section {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Секция Особенности */
+.features-section h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+}
+
+.features-section p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--secondary-text-color);
+}
+
+/*  Секция Чем мы занимаемся */
+.ourwork-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: var(--primary-text-color);
+}
+
+/* Секция Наша команда */
+.ourteam-section {
+  background-color: #f5f4fa;
+}
+
+.ourteam-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: var(--primary-text-color);
+}
+
+.ourteam-section h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--primary-text-color);
+}
+
+.ourteam-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--secondary-text-color);
+}
+
+/*  Подвал страницы */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+/* Подвал страницы логотип */
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+
+/* Подвал страницы адрес */
+.adress-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px1.71;
+
+  color: #ffffff;
+}
+
+.adress-footer a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Стили страницы Портфолио */
+
+.filter-button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: #212121;
+
+  border: none;
+}
+
+.filter-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.works h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.works p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: #757575;
+}
