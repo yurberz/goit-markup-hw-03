@@ -335,21 +335,19 @@ a {
 
 /* Подвал страницы логотип */
 .logo-footer {
-  display: inline-block;
-  /* margin-top: 60px; */
+  display: block;
   margin-bottom: 20px;
 
+  color: #ffffff;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-
-  color: #ffffff;
 }
 
 /* Подвал страницы адрес */
 .adress-footer p {
-  display: inline-block;
+  display: block;
   margin-top: 0px;
   margin-bottom: 9px;
 }
@@ -362,14 +360,10 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px1.71;
+  line-height: 1.71;
 }
 
 .adress-footer a {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -443,11 +437,10 @@ a {
 .works p {
   margin: 0px;
 
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-
-  color: #757575;
 }
 
 .works li {
