@@ -384,12 +384,12 @@ a {
 }
 
 /* Стили страницы Портфолио */
-
-/* Секция Фильтр */
 .portfolio-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+/* Секция Фильтр */
 
 .filter {
   display: flex;
@@ -459,7 +459,7 @@ a {
   width: calc ((100% - 2 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .works li:nth-child(3n) {
