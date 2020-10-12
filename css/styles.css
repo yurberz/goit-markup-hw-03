@@ -47,10 +47,13 @@ a {
 /* Стили страницы Студия */
 
 /* Шапка страницы */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .main-header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .main-header .nav {
@@ -150,6 +153,8 @@ a {
 
 /* Секция-герой */
 .hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 
   background-color: var(--secondary-background-color);
@@ -236,7 +241,6 @@ a {
 
 /*  Секция Чем мы занимаемся */
 .ourwork-section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
